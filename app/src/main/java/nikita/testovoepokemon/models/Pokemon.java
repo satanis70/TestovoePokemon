@@ -4,7 +4,12 @@ public class Pokemon {
 
     private int number;
     private String name;
+    private String height;
     private String url;
+
+
+
+    private String hp;
 
     public int getNumber() {
 
@@ -31,5 +36,21 @@ public class Pokemon {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getHeight() {
+        return height;
+    }
+
+    public void setHeight(String height) {
+        this.height = height;
+    }
+
+    public String getHp() {
+        return hp;
+    }
+
+    public void setHp(String hp) {
+        this.hp = hp;
     }
 }
